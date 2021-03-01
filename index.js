@@ -84,8 +84,8 @@ async function newURL(){
 
         //RESET LOGIC
         breakLoop=false;
-        butElement.onclick = async()=>{harvestMode=false; newURL()};
-        harvestButElement.onclick = async()=>{harvestMode=true; newURL()};
+        butElement.onclick = async()=>{harvestMode=false; len=urlLenSliderElement.value;newURL()};
+        harvestButElement.onclick = async()=>{harvestMode=true; len=urlLenSliderElement.value;newURL()};
         
         return; //EXIT SUCCESSFULLY
     } else if(res.url !== "https://i.imgur.com/removed.png"){

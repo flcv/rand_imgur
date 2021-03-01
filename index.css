@@ -38,6 +38,13 @@ body {
     margin-bottom: 20px;
 }
 
+#link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;    
+}
+
 #link a { 
     text-decoration: none;
     font-family: monospace;
