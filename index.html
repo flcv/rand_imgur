@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Imgur random image finder</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+    <script src="./index.js"></script>
+
+</head>
+
+<body>
+
+    <div id="container">
+        
+        <div id="sliderInfo">URL character length (5 is recommended for the fastest results, but will return older images)</div>
+        <input type="range" min="5" max="7" value="5" id="URL_len" oninput="document.getElementById('sliderVal').innerHTML = this.value;">
+        <div id="sliderVal"></div>
+        <div id="warning">Warning: this site does not filter out NSFW results</div>
+        <div id="menubar">
+            <button id="but">Show me a new image!</button>
+            <button id="but_harv">Harvest URLs</button>
+        </div>
+        <div id="image">
+            <img id="image_img" src="">
+        </div>
+        <div id="link"></div>
+    </div>
+    
+    <div id="output"></div>
+
+</body>
+
+</html>

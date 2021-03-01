@@ -1,0 +1,134 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    background: #11112c;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#container {
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 60%;
+    padding: 20px;
+    margin-left: 20%;
+    background: #131e38;
+}
+
+#warning {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(161, 24, 24);
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#link a { 
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;    
+}
+
+#output {
+    overflow-y: scroll;
+    background: white;
+    min-width: 15%;
+    max-width: 15%;
+    margin-right: 5%;
+    height: 100%;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menubar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 80px;
+    max-height: 80px;
+    margin: 20px;
+}
+
+#but, #but_harv {
+    background: rgb(0, 0, 0);
+    border: 3px solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+    width: 50%;
+    height: 100%;
+}
+
+#but_harv {
+    border-left: 0px;
+}
+
+#but:hover, #but_harv:hover {
+    background: grey;
+}
+
+#but:active, #but_harv:active {
+    background: #ccc;
+    transition: 0.1s;
+}
+
+#sliderVal {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sliderInfo {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen 
+and (min-width: 360px)
+and (max-width: 1382px){
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #container {
+        width: 95%;
+        padding: 0px;
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+    #output {
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+    }
+
+
+}
