@@ -5,7 +5,7 @@
 **When:** January 2021\
 **Why:** Personal amusement\
 **How:** ES6, HTML5, CSS3\
-**Development time (approx.):** <2 hours\
+**Development time (approx.):** <2 hours
 
 ## Longform
 A site written in **ECMAScript 6** that brute forces **random imgur URLs** to find new images that are available publicly. 
