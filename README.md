@@ -8,7 +8,7 @@
 **Development time (approx.):** <2 hours\
 
 ## Longform
-A site written with **ECMAScript 6** that brute forces **random imgur URLs** to find new images that are available publicly. 
+A site written in **ECMAScript 6** that brute forces **random imgur URLs** to find new images that are available publicly. 
 
 The script does **not** block NSFW images, so some found images **may** be inappropriate or disturbing. 
 
